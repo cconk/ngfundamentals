@@ -1,4 +1,5 @@
 import { Component, Input, Output, EventEmitter} from '@angular/core';
+import { IEvent } from './shared/index'
 
 
 @Component({
@@ -32,7 +33,7 @@ import { Component, Input, Output, EventEmitter} from '@angular/core';
 })
 
 export class EventThumbnailComponent {
-    @Input() event:any
+    @Input() event:IEvent
 
     getStartTimeClass() {
         // return object for class assignment option
