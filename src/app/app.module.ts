@@ -12,7 +12,8 @@ import {
   EventThumbnailComponent,
   EventListResolver,
   EventsListComponent,
-  EventService
+  EventService,
+  SessionListComponent
 } from './events/index'
 
 import { EventsAppComponent } from './events-app.component';
@@ -37,7 +38,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     EventDetailsComponent,
     CreateEventComponent,
     CreateSessionComponent, 
-    Error404Component
+    Error404Component,
+    SessionListComponent
   ],
   providers: [
     EventService,
